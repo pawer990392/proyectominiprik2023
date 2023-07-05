@@ -1,0 +1,23 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+mat-drawer {
+    width: 260px;
+    background: rgb(108, 136, 152);
+    height: 100%;
+}
+
+mat-drawer-container {
+    height: 100%;
+    background-color: azure;
+}
+
+mat-drawer-content {
+    background-color: rgb(225, 236, 241);
+    .main {
+        margin-left: 30px;
+    }
+}

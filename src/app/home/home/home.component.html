@@ -1,0 +1,16 @@
+<mat-drawer-container>
+    <mat-drawer mode="side" [opened]="siderbarOpen">
+        <app-sidenav></app-sidenav>
+    </mat-drawer>
+    <!--                                                                       -->
+    <mat-drawer-content>
+        <div class="content">
+            <div class="toolbar">
+                <app-header (toggleSidebarForMe)="sideBarToggler()"></app-header>
+            </div>
+            <div class="main">
+                Aqui es comienzo de toda la Area
+            </div>
+        </div>
+    </mat-drawer-content>
+</mat-drawer-container>
