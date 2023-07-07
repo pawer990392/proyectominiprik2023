@@ -13,6 +13,10 @@ import { MatButtonModule } from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {ToastrModule} from  'ngx-toastr';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
 
 //https://codingpotions.com/angular-login-sesion/
 //https://codesandbox.io/s/compassionate-voice-p5h32?file=/src/app/app.routing.ts
@@ -36,7 +40,10 @@ import {MatExpansionModule} from '@angular/material/expansion';
     MatOptionModule,
     MatSidenavModule,
     MatListModule,
-    MatExpansionModule
+    MatExpansionModule,
+    ToastrModule.forRoot(),
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   exports:[
     MatToolbarModule,
@@ -51,7 +58,11 @@ import {MatExpansionModule} from '@angular/material/expansion';
     MatOptionModule,
     MatSidenavModule,
     MatListModule,
-    MatExpansionModule
+    MatExpansionModule,
+    ToastrModule,
+    ReactiveFormsModule,
+    HttpClientModule
+
 
   ]
 })

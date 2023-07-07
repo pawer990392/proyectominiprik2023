@@ -1,23 +1,41 @@
 :host {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+}
+
+mat-sidenav-container {
     height: 100%;
 }
 
-mat-drawer {
-    width: 260px;
-    background: rgb(108, 136, 152);
+mat-sidenav {
+    background: rgb(67, 83, 93);
     height: 100%;
+    width: 230px;
+    text-align: center;
+    padding: 16px;
 }
 
-mat-drawer-container {
-    height: 100%;
-    background-color: azure;
+mat-sidenav-content {
+    height: 100vh;
+    background-color: rgb(220, 154, 154);
 }
 
-mat-drawer-content {
-    background-color: rgb(225, 236, 241);
-    .main {
-        margin-left: 30px;
+.mat-toolbar {
+    .mat-icon {
+        margin-left: 15px;
+        color: black;
     }
+    justify-content: sp;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    margin: 8px;
+    background-color: beige;
+    font-size: 2rem;
+    margin-left: 22px;
+    color: black;
+    background-color: rgb(202, 202, 22);
 }

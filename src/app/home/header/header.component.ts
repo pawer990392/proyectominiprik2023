@@ -11,7 +11,7 @@ export class HeaderComponent {
 
   @Output() toggleSidebarForMe : EventEmitter<any> = new EventEmitter();
 
-  user: string = 'Miguel Angel';
+  user: string = 'Miguel';
 
   // constructor(private authService: AuthService) { }
 
