@@ -5,6 +5,7 @@ import { MaterialModule } from '../material/material.module';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { HeaderComponent } from './header/header.component';
 import { MenulistComponent } from './menulist/menulist.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
@@ -17,7 +18,12 @@ import { MenulistComponent } from './menulist/menulist.component';
   ],
   imports: [
     CommonModule,
-    MaterialModule
+    MaterialModule,
+    AppRoutingModule,
+
+  ],
+  exports:[
+    HomeComponent
   ]
 })
 export class HomeModule { }
