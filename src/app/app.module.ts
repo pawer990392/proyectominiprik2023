@@ -26,8 +26,12 @@ import { ProductosModule } from './productos/productos.module';
     CategoriaModule,
     ProductosModule,
     ReactiveFormsModule,
-    HttpClientModule
-
+    HttpClientModule,
+    //duda
+  
+  ],
+  exports:[
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

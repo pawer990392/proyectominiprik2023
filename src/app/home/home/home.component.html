@@ -1,6 +1,5 @@
 <mat-sidenav-container>
     <mat-sidenav mode="side" [opened]="siderbarOpen">
-
         <app-sidenav></app-sidenav>
     </mat-sidenav>
     <!--                                                                       -->
@@ -10,7 +9,8 @@
             <app-header (toggleSidebarForMe)="sideBarToggler()"></app-header>
 
             <div class="main mat-elevation-z1 border border-danger">
-                Aqui es comienzo de toda la Area
+                <router-outlet></router-outlet>
+
             </div>
 
         </div>

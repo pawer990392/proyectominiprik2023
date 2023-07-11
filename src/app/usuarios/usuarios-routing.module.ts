@@ -7,7 +7,7 @@ import { UserEditComponent } from './user-edit/user-edit.component';
 const routes:Routes=[
   
   {
-    path:'',
+    path:'', 
     children:[
       {
         path:'CrearUser',
@@ -29,6 +29,7 @@ const routes:Routes=[
     ]
   }
 ]
+
 
 
 @NgModule({

@@ -2,16 +2,17 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home/home.component';
 
-//rutasprincipales de nuestra App
+//rutas principales de nuestra App
+//tos los module van en los imports
 const routes: Routes = [
 
   {
-    path:'home',
+    path:'usuarios',
     loadChildren:()=>import('./usuarios/usuarios.module').then(m=>m.UsuariosModule)
   },
-  {
+  { 
     path:'**',
-    redirectTo:'home'
+    redirectTo:'usuarios'
 
   }
 ];

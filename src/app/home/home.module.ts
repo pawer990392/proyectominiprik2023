@@ -6,7 +6,9 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { HeaderComponent } from './header/header.component';
 import { MenulistComponent } from './menulist/menulist.component';
 import { AppRoutingModule } from '../app-routing.module';
+import { UsuariosRoutingModule } from '../usuarios/usuarios-routing.module';
 
+ 
 
 
 @NgModule({
@@ -19,11 +21,12 @@ import { AppRoutingModule } from '../app-routing.module';
   imports: [
     CommonModule,
     MaterialModule,
-    AppRoutingModule,
+    AppRoutingModule
 
   ],
   exports:[
     HomeComponent
+
   ]
 })
 export class HomeModule { }

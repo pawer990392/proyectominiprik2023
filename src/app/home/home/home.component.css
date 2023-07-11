@@ -11,9 +11,9 @@ mat-sidenav-container {
 mat-sidenav {
     background: rgb(67, 83, 93);
     height: 100%;
-    width: 230px;
+    width: 200px;
     text-align: center;
-    padding: 16px;
+    padding: 10px;
 }
 
 mat-sidenav-content {
